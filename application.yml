@@ -1,5 +1,5 @@
 spring
-  profilles:
+  profiles:
     active:
     - dev #当前使用环境
 ---
