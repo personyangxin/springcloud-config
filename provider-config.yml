@@ -3,7 +3,7 @@ spring:
     active:
     - dev #当前使用的环境
 ---
-content: dev content 刷出来看看
+content: dev content 123
 spring:
   profiles: dev
   application:
