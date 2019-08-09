@@ -13,3 +13,14 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka01.com:1001/eureka/
+---
+server:
+  port: 6002
+spring:
+  profiles: test
+  application:
+    name: config-client-test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01.com:1001/eureka/
